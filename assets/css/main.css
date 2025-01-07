@@ -864,7 +864,7 @@ section,
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: 60%;
+  left: 65%;
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
@@ -880,7 +880,7 @@ section,
 
 .portfolio .portfolio-content .portfolio-info .details-link {
   scale: 1.2;
-  left: 30%;
+  left: 28%;
   font-size: 34px;
   line-height: 0;
 }
