@@ -227,3 +227,23 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+const translateLinkeng = document.querySelector('.translate_eng img');
+const defaultImage = 'assets/img/eng.png';
+const hoverImage = 'assets/img/fr.png';
+
+translateLinkeng.addEventListener('mouseover', () => {
+  translateLinkeng.classList.add('fade-out');
+  setTimeout(() => {
+    translateLinkeng.src = hoverImage;
+    translateLinkeng.classList.remove('fade-out');
+  }, 100);
+});
+
+translateLinkeng.addEventListener('mouseout', () => {
+  translateLinkeng.classList.add('fade-out');
+  setTimeout(() => {
+    translateLinkeng.src = defaultImage;
+    translateLinkeng.classList.remove('fade-out');
+  }, 100);
+});

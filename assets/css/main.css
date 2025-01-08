@@ -183,7 +183,7 @@ h6 {
 }
 
 .header .social-links {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px -50px;
 }
 
 .header .social-links a {
@@ -1281,4 +1281,35 @@ section,
   transition: 0.3s;
   line-height: 1.2;
   scale: 1.2;
+}
+
+.translate_eng {
+  position: absolute;
+}
+
+.img_container {
+  height: 40px;
+  width: 40px;
+}
+
+.translate_eng img {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.translate_eng img.fade-out {
+  opacity: 0;
+}
+
+.translate_fr {
+  position: absolute;
+}
+
+.translate_fr img {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.translate_fr img.fade-out {
+  opacity: 0;
 }
