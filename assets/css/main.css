@@ -1313,3 +1313,9 @@ section,
 .translate_fr img.fade-out {
   opacity: 0;
 }
+
+.about .row > div { 
+  /* Force la largeur à s'agrandir */
+  min-width: 600px; 
+  max-width: 900px;
+}
